@@ -116,3 +116,8 @@ document.body.style.backgroundColor="#FFFF00"
 document.write("<br></br>")
 document.write("<br></br>") 
 
+//8 -Crie  um  programa  em  Javascript  que troque  a  palavra  lugar  por  mundo  dafrase O  LUGAR  VIRA TECNOLOGIAe apresente na tela. (20 Pontos)
+let txt ="O  LUGAR  VIRA TECNOLOGIA"
+console.log(txt.replace("LUGAR","MUNDO"))
+document.write(txt)
+
