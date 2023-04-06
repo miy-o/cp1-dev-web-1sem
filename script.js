@@ -38,3 +38,19 @@ else if(texto >= 25){
     document.write("<br><br>")
 }
 
+//exercicio 4
+
+let idade = prompt("Informe a sua idade")
+if(idade <= 12){
+    document.write("e uma crianca")
+}
+else if(idade <= 17 && idade >= 13){
+    document.write("e um adolescente")
+}
+else if(idade >=18 && <=49){
+    document.write("e um adulto")
+}
+else if(idade <=50){
+    document.write('e um idoso')
+}
+
