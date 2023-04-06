@@ -54,3 +54,17 @@ else if(idade <=50){
     document.write('e um idoso')
 }
 
+//exercicio 5
+let usuario=prompt("Digite o nome de usuário")
+let senha=prompt("Digite sua senha")
+if(usuario=="admin" && senha=="1234"){
+    document.write("Usuario logado com sucesso")
+}else
+document.write("Login ou senha incorretos")
+
+document.write("<br></br>")
+let num1= 7 ;
+let num2= 2 ;
+let res= num1%num2 ;
+console.log(res);
+
