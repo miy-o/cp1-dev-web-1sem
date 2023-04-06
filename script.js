@@ -129,3 +129,4 @@ let formattedNum = floatNum.toFixed(2); // formatação para 2 casas decimais
 
 console.log(formattedNum); // imprime "123.46" no console
 
+//finalizado
