@@ -98,3 +98,21 @@ document.write(nota6)
 document.write("<br></br>")
 document.write(nota7)
 
+//exercicio 7
+
+let nome=prompt("Me de seu nome")
+let idade2=parseInt(prompt("Me de sua idade"))
+let curso=prompt("Qual o nome do seu curso")
+let ano=prompt("Em que ano você começou seu curso?")
+document.write("O seu nome é ", nome)
+document.write("<br></br>")
+document.write("Você tem ", idade2, " anos de idade")
+document.write("<br></br>")
+document.write("Você cursa ", curso)
+document.write("<br></br>")
+document.write("E começou no curso no ano de ", ano)
+document.write("<br></br>")
+document.body.style.backgroundColor="#FFFF00"
+document.write("<br></br>")
+document.write("<br></br>") 
+
