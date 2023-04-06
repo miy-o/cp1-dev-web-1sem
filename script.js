@@ -68,3 +68,33 @@ let num2= 2 ;
 let res= num1%num2 ;
 console.log(res);
 
+//exercicio 6
+let nota1=parseFloat(prompt("me fale sua primeira nota"))
+let nota2=parseFloat(prompt("me fale sua segunda nota"))
+let nota3=parseFloat(prompt("me fale sua terceira nota"))
+let nota4=parseFloat(prompt("me fale sua quarta nota"))
+let nota5=parseFloat(prompt("me fale sua quinta nota"))
+let nota6=parseFloat(prompt("me fale sua sexta nota"))
+let nota7=parseFloat(prompt("me fale sua sétima nota"))
+let notas= nota1+nota2+nota3+nota4+nota5+nota6+nota7
+let media=notas/7
+if(media>=6){
+    document.write("Você foi aprovado")
+}else{
+    document.write("Você foi reprovado")
+}
+document.write("<br></br>") 
+document.write(nota1)
+document.write("<br></br>")
+document.write(nota2)
+document.write("<br></br>")
+document.write(nota3)
+document.write("<br></br>")
+document.write(nota4)
+document.write("<br></br>")
+document.write(nota5)
+document.write("<br></br>")
+document.write(nota6)
+document.write("<br></br>")
+document.write(nota7)
+
