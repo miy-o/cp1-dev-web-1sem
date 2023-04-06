@@ -121,3 +121,11 @@ let txt ="O  LUGAR  VIRA TECNOLOGIA"
 console.log(txt.replace("LUGAR","MUNDO"))
 document.write(txt)
 
+// exercicio 9
+//Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula(20 Pontos)
+let Num = "123.456"; // declaração da variável como String
+let floatNum = parseFloat(Num); // conversão para float
+let formattedNum = floatNum.toFixed(2); // formatação para 2 casas decimais
+
+console.log(formattedNum); // imprime "123.46" no console
+
